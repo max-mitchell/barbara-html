@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>More Cat Friends</title>
+    <meta charset="utf-8" />
+  </head>
+
+  <body>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="tags.html">HTML Tags</a>
+      <a href="moby_dick.html">Moby Dick</a>
+      <a href="More Cat Friends">More Cat Friends</a>
+    </div>
+
+    <h1><strong>OFFICIAL</strong>More Cat Friends</h1>
+
+    <div>
+      <p>
+        While Ruby is the queen of all of our hearts, she would like to share
+        the love with some other special kitties, including:
+      </p>
+
+      <ul>
+        <li><strong>Leo</strong>, Jeffrey's fabulous little orange man.</li>
+        <li><strong>Bruce and Callie</strong>, the chunks-in-residence at 200 N. Craftsbury Road.</li>
+        <li><strong>Freddie</strong>, a weird little dude with a tiny head.</li>
+        <li><strong>Marci</strong>, the sweet gal who hisses at Max.</li>
+        <li></li>
+      </ul>
+
+      <p><em>**Photos coming soon once I figure out how to do that**</em></p>
+    </div>
+
+    <div>
+      <h2><em>RIP to the Ones We Miss</em></h2>
+
+      <p>Ruby raises her paw in memory of the kitties we've loved and lost. <em>&#128151; Gone but Never Forgotton. &#128151;</em></p>
+
+      <ul>
+        <li><strong>Apollo and Artemis</strong></em></li>
+        <li>Freyja Galantowicz</li>
+      </ul>
+    </div>
+  </body>
+</html>
