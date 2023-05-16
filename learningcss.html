@@ -2,33 +2,59 @@
   <head>
     <title>Test Page: Don't Panic</title>
     <meta charset="utf-8" />
-    <style></style>
+    <style>
+      a {
+        color: blueviolet;
+      }
+      #exec-bio {
+        background-color: lightgray;
+      }
+      #highlight {
+        background-color: aquamarine;
+      }
+      .bio-box {
+        border: 1px solid black;
+      }
+      .beep {
+        background-color: azure;
+      }
+      .bio-box a {
+        color: green;
+      }
+    </style>
   </head>
   <body>
-    <h1>I'm an H1</h1>
+    <a href="index.html">Home</a>
+    <a href="tags.html" class="nav-spacing">HTML Tags</a>
+    <a href="moby_dick.html" class="nav-spacing">Moby Dick</a>
+    <a href="More Cat Friends" class="nav-spacing">More Cat Friends</a>
+    <a href="learningcss.html" class="nav-spacing">B Learns CSS</a>
+    <div id="highlight">
+      <h1>I'm an H1</h1>
+    </div>
     <ul>
       <li>
-        <a href="https://example.com/" style="color: red">Link</a>
+        <a href="https://example.com/">Link</a>
       </li>
       <li>
-        <a href="https://example.com/" style="color: red">Link</a>
+        <a href="https://example.com/">Link</a>
       </li>
       <li>
-        <a href="https://example.com/" style="color: red">Link</a>
+        <a href="https://example.com/">Link</a>
       </li>
     </ul>
     <h2>I'm an H2</h2>
-    <div style="border: 1px solid black">
-      <a href="https://example.com/" style="color: green">I'm a link</a>
+    <div id="exec-bio" class="bio-box beep">
+      <a href="https://example.com/">I'm a link</a>
     </div>
-    <div style="border: 1px solid black">
-      <a href="https://example.com/" style="color: green">I'm a link</a>
+    <div class="bio-box beep">
+      <a href="https://example.com/">I'm a link</a>
     </div>
-    <div style="border: 1px solid black">
-      <a href="https://example.com/" style="color: green">I'm a link</a>
+    <div class="bio-box beep">
+      <a href="https://example.com/">I'm a link</a>
     </div>
-    <div style="border: 1px solid black">
-      <a href="https://example.com/" style="color: green">I'm a link</a>
+    <div class="bio-box beep">
+      <a href="https://example.com/">I'm a link</a>
     </div>
   </body>
 </html>
