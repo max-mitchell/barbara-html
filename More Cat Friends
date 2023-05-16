@@ -3,14 +3,15 @@
   <head>
     <title>More Cat Friends</title>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="main.css" />
   </head>
 
   <body>
-    <div>
+    <div class="nav-menu">
       <a href="index.html">Home</a>
-      <a href="tags.html">HTML Tags</a>
-      <a href="moby_dick.html">Moby Dick</a>
-      <a href="More Cat Friends">More Cat Friends</a>
+      <a href="tags.html" class="nav-spacing">HTML Tags</a>
+      <a href="moby_dick.html" class="nav-spacing">Moby Dick</a>
+      <a href="More Cat Friends" class="nav-spacing">More Cat Friends</a>
     </div>
 
     <h1><strong>More Cat Friends</strong></h1>
