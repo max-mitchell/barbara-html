@@ -1,25 +1,31 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>Test Page: Don't Panic</title>
     <meta charset="utf-8" />
     <style>
+      /* GLOBAL STYLES */
       a {
-        color: blueviolet;
+        color: #3737fc;
       }
-      #exec-bio {
-        background-color: lightgray;
+      /* SOCIAL STYLES */
+      .social-link {
+        color: #800080;
       }
-      #highlight {
-        background-color: aquamarine;
-      }
+      /* BIO STYLES */
       .bio-box {
-        border: 1px solid black;
+        border: 1px solid #000;
+        font-size: 1rem;
+        width: 50%;
       }
-      .beep {
-        background-color: azure;
+      .bio-box h3 {
+        font-size: 1.5em;
       }
-      .bio-box a {
-        color: green;
+      .bio-copy {
+        font-size: 1em;
+      }
+      .bio-wrapper {
+        font-size: 24px;
       }
     </style>
   </head>
@@ -29,32 +35,56 @@
     <a href="moby_dick.html" class="nav-spacing">Moby Dick</a>
     <a href="More_Cat_Friends.html" class="nav-spacing">More Cat Friends</a>
     <a href="learningcss.html" class="nav-spacing">B Learns CSS</a>
-    <div id="highlight">
-      <h1>I'm an H1</h1>
-    </div>
+    <h1>I'm an H1</h1>
     <ul>
       <li>
-        <a href="https://example.com/">Link</a>
+        <a class="social-link" href="https://example.com/">Link</a>
       </li>
       <li>
-        <a href="https://example.com/">Link</a>
+        <a class="social-link" href="https://example.com/">Link</a>
       </li>
       <li>
-        <a href="https://example.com/">Link</a>
+        <a class="social-link" href="https://example.com/">Link</a>
       </li>
     </ul>
-    <h2>I'm an H2</h2>
-    <div id="exec-bio" class="bio-box beep">
-      <a href="https://example.com/">I'm a link</a>
-    </div>
-    <div class="bio-box beep">
-      <a href="https://example.com/">I'm a link</a>
-    </div>
-    <div class="bio-box beep">
-      <a href="https://example.com/">I'm a link</a>
-    </div>
-    <div class="bio-box beep">
-      <a href="https://example.com/">I'm a link</a>
+    <h2>Ruby Photo Gallery</h2>
+    <div class="bio-wrapper">
+      <div class="bio-box">
+        <h3>Fluffy Ears</h3>
+        <a class="social-link" href="https://example.com/">I'm a link</a>
+        <div class="bio-copy">
+          <p>
+            One of Ruby's most stylish and queenly features is her ear fluff,
+            which extends straight out of her ears and catches the sunlight with
+            dazzling effects. <em>More pictures coming soon.</em>
+          </p>
+        </div>
+      </div>
+      <div class="bio-box">
+        <h3>Toe Fluff and Beans</h3>
+        <a class="social-link" href="https://example.com/">I'm a link</a>
+        <div class="bio-copy">
+          <p>
+            Many of us claim to be bean fans around here, and none can claim
+            such beautiful, speckled, soft beans as Ruby.
+            <strong>Toe</strong> beans, that is!
+            <em>More pictures coming soon.</em>
+          </p>
+        </div>
+      </div>
+      <div class="bio-box">
+        <h3>Tiny Teeth</h3>
+        <a class="social-link" href="https://example.com/">I'm a link</a>
+        <div class="bio-copy">
+          <p>
+            Ruby is not always showing off her tiny teeth, but you might be able
+            to catch a glimpse when she smells something truly stanky. This
+            adorable little row of tiny teeth distracts from vicious predator
+            jaws.
+            <em>More pictures coming soon.</em>
+          </p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
