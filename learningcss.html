@@ -8,15 +8,30 @@
       a {
         color: #3737fc;
       }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 4em;
+        margin-top: 0;
+      }
       /* SOCIAL STYLES */
       .social-link {
+        background: rgba(150, 150, 150, 0.5);
         color: #800080;
+        display: inline-block;
+        height: 36px;
       }
       /* BIO STYLES */
       .bio-box {
         border: 1px solid #000;
+        box-sizing: border-box;
+        float: left;
         font-size: 1rem;
-        width: 50%;
+        padding: 2%;
+        width: 25%;
       }
       .bio-box h3 {
         font-size: 1.5em;
@@ -26,27 +41,35 @@
       }
       .bio-wrapper {
         font-size: 24px;
+        overflow: hidden;
+      }
+      /* HERO STYLES */
+      .full-hero {
+        background-color: #c7dbfc;
+        height: 50vh;
+      }
+      .ruby_logo {
+        background-color: #c7dbfc;
       }
     </style>
   </head>
   <body>
-    <a href="index.html">Home</a>
-    <a href="tags.html" class="nav-spacing">HTML Tags</a>
-    <a href="moby_dick.html" class="nav-spacing">Moby Dick</a>
-    <a href="More_Cat_Friends.html" class="nav-spacing">More Cat Friends</a>
-    <a href="learningcss.html" class="nav-spacing">B Learns CSS</a>
-    <h1>I'm an H1</h1>
-    <ul>
-      <li>
-        <a class="social-link" href="https://example.com/">Link</a>
-      </li>
-      <li>
-        <a class="social-link" href="https://example.com/">Link</a>
-      </li>
-      <li>
-        <a class="social-link" href="https://example.com/">Link</a>
-      </li>
-    </ul>
+    <div class="full-hero hero-home">
+      <div class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="tags.html" class="nav-spacing">HTML Tags</a>
+        <a href="moby_dick.html" class="nav-spacing">Moby Dick</a>
+        <a href="More_Cat_Friends.html" class="nav-spacing">More Cat Friends</a>
+        <a href="learningcss.html" class="nav-spacing">B Learns CSS</a>
+      </div>
+      <img
+        class="ruby_logo"
+        src="rubylogo.jpg"
+        width="750px"
+        alt="finally we have a real picture!"
+        style="display: block; margin: 0 auto"
+      />
+    </div>
     <h2>Ruby Photo Gallery</h2>
     <div class="bio-wrapper">
       <div class="bio-box">
@@ -97,5 +120,31 @@
         </div>
       </div>
     </div>
+    <p>
+      Ruby is a leader in the movement to teach the world
+      <em>kitty cat ways</em>, which includes both "hard skills" like meowing,
+      hunting ants, and pooping, and "soft skills" like growing a fluffy coat
+      and being angelic.
+    </p>
+    <p>
+      Ruby believes there are <strong>at least a billion people</strong> who can
+      benefit from learning kitty cat ways, probably more. To join our movement,
+      <a href="https://learnenough.com/#email_list"
+        >sign up for our official email list</a
+      >
+      now.
+    </p>
+    <h3>Disclaimers</h3>
+    <p>
+      This page is part of the sample site for
+      <a href="https://learnenough.com/css-tutorial"
+        ><em>Learn Enough CSS and Layout to be Dangerous</em></a
+      >, which teaches the basics of <strong>C</strong>ascading
+      <strong>S</strong>tyle <strong>S</strong>heets, the language that allows
+      web pages to be styled. Ruby does not endorse any of the weird stuff on
+      this site like the Moby Dick page. Ruby and her agents will pursue swift
+      legal action against improper use of Ruby's name or likeness in
+      association with web development or Moby Dick.
+    </p>
   </body>
 </html>
