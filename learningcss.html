@@ -19,10 +19,17 @@
       }
       /* SOCIAL STYLES */
       .social-link {
-        background: rgba(150, 150, 150, 0.5);
         color: #800080;
         display: inline-block;
         height: 36px;
+      }
+      .social-list {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+      }
+      .social-list > li {
+        display: inline-block;
       }
       /* BIO STYLES */
       .bio-box {
@@ -30,18 +37,36 @@
         box-sizing: border-box;
         float: left;
         font-size: 1rem;
+        margin: 40px 1% 0;
         padding: 2%;
-        width: 25%;
+        width: 23%;
       }
       .bio-box h3 {
+        color: #fff;
         font-size: 1.5em;
+        margin: -40px 0 1em;
+        text-align: center;
+      }
+      .bio-box img {
+        width: 100%;
       }
       .bio-copy {
         font-size: 1em;
       }
       .bio-wrapper {
+        background-color: #f19def;
         font-size: 24px;
+        margin: auto;
+        max-width: 75%;
         overflow: hidden;
+      }
+      .bio-wrapper:after {
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
       }
       /* HERO STYLES */
       .full-hero {
@@ -70,9 +95,21 @@
         style="display: block; margin: 0 auto"
       />
     </div>
+    <ul class="social-list">
+      <li>
+        <a href="https://example.com/" class="social-link">Link1</a>
+      </li>
+      <li>
+        <a href="https://example.com/" class="social-link">Link2</a>
+      </li>
+      <li>
+        <a href="https://example.com/" class="social-link">Link3</a>
+      </li>
+    </ul>
     <h2>Ruby Photo Gallery</h2>
     <div class="bio-wrapper">
       <div class="bio-box">
+        <img src="ruby_star.jpg" />
         <h3>Fluffy Ears</h3>
         <a class="social-link" href="https://example.com/">I'm a link</a>
         <div class="bio-copy">
@@ -84,6 +121,7 @@
         </div>
       </div>
       <div class="bio-box">
+        <img src="ruby crazed.jpg" />
         <h3>Toe Fluff and Beans</h3>
         <a class="social-link" href="https://example.com/">I'm a link</a>
         <div class="bio-copy">
@@ -96,6 +134,7 @@
         </div>
       </div>
       <div class="bio-box">
+        <img src="https://placekitten.com/g/400/400"">
         <h3>Tiny Teeth</h3>
         <a class="social-link" href="https://example.com/">I'm a link</a>
         <div class="bio-copy">
@@ -109,6 +148,7 @@
         </div>
       </div>
       <div class="bio-box">
+        <img src="https://placekitten.com/g/400/400"">
         <h3>Screaming</h3>
         <a class="social-link" href="https://example.com/">I'm a link</a>
         <div class="bio-copy">
